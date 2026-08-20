@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SENTINEL ENERGY — Portfólio Público de Inteligência Energética</title>
+  <meta name="description" content="Portfólio público de relatórios, briefings e análises quantitativas de inteligência energética gerados pelo pipeline SENTINEL.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header-nav">
+    <div class="brand-container">
+      <div class="brand-icon">S</div>
+      <div class="brand-title">SENTINEL <span>ENERGY</span></div>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="flash/index.html">Flash</a></li>
+        <li><a href="diario/index.html">Diário</a></li>
+        <li><a href="placar/index.html">Placar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Public Portfolio & Intelligence
+      </div>
+      <h1>Inteligência Analítica & Monitoramento Energético</h1>
+      <p>
+        Repositório público de relatórios, análises de mercado e projeções quantitativas 
+        gerados de forma automatizada pelo pipeline <strong>SENTINEL ENERGY</strong>.
+      </p>
+    </section>
+
+    <!-- Categories Navigation Grid -->
+    <section>
+      <h2 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--text-main);">
+        Linhas de Produtos
+      </h2>
+      <div class="products-grid">
+        
+        <!-- Flash Card -->
+        <article class="product-card">
+          <div>
+            <div class="card-header">
+              <span class="card-icon">⚡</span>
+              <span class="card-tag tag-flash">Event-Driven</span>
+            </div>
+            <h3 class="card-title">Flash Briefings</h3>
+            <p class="card-desc">
+              Alertas e análises de impacto imediato disparados sob eventos críticos e anomalias de mercado.
+            </p>
+          </div>
+          <div class="card-footer">
+            <span style="color: var(--text-muted);">Frequência: Ad hoc</span>
+            <a href="flash/index.html">Acessar canal &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Diario Card -->
+        <article class="product-card">
+          <div>
+            <div class="card-header">
+              <span class="card-icon">📅</span>
+              <span class="card-tag tag-diario">Diário</span>
+            </div>
+            <h3 class="card-title">Relatórios Diários</h3>
+            <p class="card-desc">
+              Consolidação diária dos principais vetores de oferta, demanda, preços e eventos regulatórios do setor elétrico.
+            </p>
+          </div>
+          <div class="card-footer">
+            <span style="color: var(--text-muted);">Frequência: Dias úteis</span>
+            <a href="diario/index.html">Acessar canal &rarr;</a>
+          </div>
+        </article>
+
+        <!-- Placar Card -->
+        <article class="product-card">
+          <div>
+            <div class="card-header">
+              <span class="card-icon">📊</span>
+              <span class="card-tag tag-placar">Semanal</span>
+            </div>
+            <h3 class="card-title">Placar de Previsões</h3>
+            <p class="card-desc">
+              Consolidação semanal com acompanhamento transparente e auditável do acerto das projeções do modelo.
+            </p>
+          </div>
+          <div class="card-footer">
+            <span style="color: var(--text-muted);">Frequência: Semanal</span>
+            <a href="placar/index.html">Acessar canal &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Honest Empty State for Recent Reports -->
+    <section class="empty-state-section">
+      <div class="empty-state-icon">📡</div>
+      <h3 class="empty-state-title">Nenhum relatório publicado ainda</h3>
+      <p class="empty-state-text">
+        Este é o shell do portfólio público do SENTINEL ENERGY. Assim que o pipeline de síntese gerar 
+        e enviar as primeiras publicações, os relatórios aparecerão nesta listagem.
+      </p>
+      <div class="empty-state-hint">
+        Aguardando integrações do pipeline • synthesis/publishing/publish_flow.py
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-copy">
+        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio & Intelligence Engine
+      </div>
+      <div style="font-size: 0.8rem; color: var(--text-dim);">
+        Gerado estaticamente via GitHub Pages • Sem rastreadores ou cookies de terceiros.
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
