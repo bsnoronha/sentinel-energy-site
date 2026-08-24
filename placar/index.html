@@ -63,8 +63,8 @@
       </div>
     </div>
 
-    <!-- Honest Empty State -->
-    <section class="empty-state-section">
+    <!-- Reports List (manifest-driven; empty-state abaixo é fallback sem JS) -->
+    <section id="reports-list" data-product="placar" class="empty-state-section">
       <div class="empty-state-icon">📊</div>
       <h3 class="empty-state-title">Nenhum relatório publicado ainda</h3>
       <p class="empty-state-text">
@@ -85,6 +85,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="../js/reports-list.js" defer></script>
 
 </body>
 </html>
