@@ -122,6 +122,35 @@ a:hover {
   list-style: none;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+/* Language Toggle (PT <-> EN) */
+.lang-toggle a {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  transition: all 0.2s ease;
+}
+
+.lang-toggle a:hover {
+  color: var(--emerald-primary);
+  border-color: var(--emerald-glow);
+  background: hsla(160, 84%, 39%, 0.08);
+  text-shadow: none;
+}
+
 .nav-links a {
   color: var(--text-muted);
   font-weight: 500;
