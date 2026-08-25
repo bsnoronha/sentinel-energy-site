@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flash Briefings — SENTINEL ENERGY</title>
-  <meta name="description" content="Alertas e briefings de impacto imediato produzidos pelo SENTINEL ENERGY sob eventos de anomalia no setor elétrico.">
+  <meta name="description" content="Immediate-impact alerts and briefings produced by SENTINEL ENERGY under anomaly events in the energy sector.">
 
   <!-- hreflang -->
   <link rel="alternate" hreflang="pt-br" href="https://bsnoronha.github.io/sentinel-energy-site/flash/index.html">
   <link rel="alternate" hreflang="en" href="https://bsnoronha.github.io/sentinel-energy-site/en/flash/index.html">
-  
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  
+
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 
@@ -28,44 +28,44 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><a href="../index.html">Início</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="index.html" class="active">Flash</a></li>
-        <li><a href="../diario/index.html">Diário</a></li>
-        <li><a href="../placar/index.html">Placar</a></li>
+        <li><a href="../diario/index.html">Daily</a></li>
+        <li><a href="../../flash/index.html" style="font-size: 0.8rem; color: var(--text-dim);">PT-BR</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    
+
     <!-- Breadcrumb -->
     <div class="breadcrumb">
-      <a href="../index.html">Início</a> &rsaquo; <span>Flash Briefings</span>
+      <a href="../index.html">Home</a> &rsaquo; <span>Flash Briefings</span>
     </div>
 
     <!-- Category Header -->
     <section style="margin-bottom: 2.5rem;">
       <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
         <span class="card-tag tag-flash" style="font-size: 0.85rem;">Event-Driven</span>
-        <span style="font-size: 0.85rem; color: var(--text-muted);">Canal de Anomalias & Alertas</span>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Anomaly &amp; Alert Channel</span>
       </div>
       <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.75rem;">
         ⚡ Flash Briefings
       </h1>
       <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 750px;">
-        Publicações de alta prioridade geradas quando o sistema detecta variações abruptas, desvios operacionais ou eventos críticos no setor energético.
+        High-priority publications generated when the system detects abrupt variations, operational deviations or critical events in the energy sector.
       </p>
     </section>
 
-    <!-- Reports List (manifest-driven; empty-state abaixo é fallback sem JS) -->
+    <!-- Reports List (manifest-driven; empty-state below is fallback without JS) -->
     <section id="reports-list" data-product="flash" class="empty-state-section">
       <div class="empty-state-icon">⚡</div>
-      <h3 class="empty-state-title">Nenhum relatório publicado ainda</h3>
+      <h3 class="empty-state-title">No reports published yet</h3>
       <p class="empty-state-text">
-        Nenhum Flash Briefing foi emitido até o momento nesta categoria. Os briefings publicados pelo pipeline serão listados aqui cronologicamente.
+        No Flash Briefing has been issued in this category so far. Briefings published by the pipeline will be listed here chronologically.
       </p>
       <div class="empty-state-hint">
-        Categoria: /flash/ • publish_flow.py (product_type="flash")
+        Category: /en/flash/ &bull; publish_flow.py (product_type="flash", locale="en")
       </div>
     </section>
 
@@ -75,12 +75,12 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-copy">
-        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio & Intelligence Engine
+        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio &amp; Intelligence Engine
       </div>
     </div>
   </footer>
 
-  <script src="../js/reports-list.js" defer></script>
+  <script src="../../js/reports-list.js" defer></script>
 
 </body>
 </html>

@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Relatórios Diários — SENTINEL ENERGY</title>
-  <meta name="description" content="Acompanhamento diário consolidado dos vetores operacionais, meteorológicos e regulatórios do setor elétrico.">
+  <title>Daily Reports — SENTINEL ENERGY</title>
+  <meta name="description" content="Daily consolidated monitoring of operational, meteorological and regulatory vectors in the energy sector.">
 
   <!-- hreflang -->
   <link rel="alternate" hreflang="pt-br" href="https://bsnoronha.github.io/sentinel-energy-site/diario/index.html">
   <link rel="alternate" hreflang="en" href="https://bsnoronha.github.io/sentinel-energy-site/en/diario/index.html">
-  
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  
+
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 
@@ -28,44 +28,44 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><a href="../index.html">Início</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="../flash/index.html">Flash</a></li>
-        <li><a href="index.html" class="active">Diário</a></li>
-        <li><a href="../placar/index.html">Placar</a></li>
+        <li><a href="index.html" class="active">Daily</a></li>
+        <li><a href="../../diario/index.html" style="font-size: 0.8rem; color: var(--text-dim);">PT-BR</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    
+
     <!-- Breadcrumb -->
     <div class="breadcrumb">
-      <a href="../index.html">Início</a> &rsaquo; <span>Relatórios Diários</span>
+      <a href="../index.html">Home</a> &rsaquo; <span>Daily Reports</span>
     </div>
 
     <!-- Category Header -->
     <section style="margin-bottom: 2.5rem;">
       <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
         <span class="card-tag tag-diario" style="font-size: 0.85rem;">Daily Briefing</span>
-        <span style="font-size: 0.85rem; color: var(--text-muted);">Síntese Operacional Diária</span>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Daily Operational Synthesis</span>
       </div>
       <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.75rem;">
-        📅 Relatórios Diários
+        📅 Daily Reports
       </h1>
       <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 750px;">
-        Síntese diária de eventos geopolíticos com potencial de impacto no mercado de energia, cenário de mercado (Brent, WTI) e vetores de impacto para ativos brasileiros.
+        Daily synthesis of geopolitical events with potential impact on the energy market, market scenario (Brent, WTI) and impact vectors for Brazilian assets.
       </p>
     </section>
 
-    <!-- Reports List (manifest-driven; empty-state abaixo é fallback sem JS) -->
+    <!-- Reports List (manifest-driven; empty-state below is fallback without JS) -->
     <section id="reports-list" data-product="diario" class="empty-state-section">
       <div class="empty-state-icon">📅</div>
-      <h3 class="empty-state-title">Nenhum relatório publicado ainda</h3>
+      <h3 class="empty-state-title">No reports published yet</h3>
       <p class="empty-state-text">
-        Nenhum Relatório Diário foi publicado nesta seção até o momento. As edições diárias publicadas pelo pipeline estarão disponíveis aqui.
+        No Daily Report has been published in this section so far. Daily editions published by the pipeline will be available here.
       </p>
       <div class="empty-state-hint">
-        Categoria: /diario/ • publish_flow.py (product_type="daily")
+        Category: /en/diario/ &bull; publish_flow.py (product_type="daily", locale="en")
       </div>
     </section>
 
@@ -75,12 +75,12 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-copy">
-        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio & Intelligence Engine
+        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio &amp; Intelligence Engine
       </div>
     </div>
   </footer>
 
-  <script src="../js/reports-list.js" defer></script>
+  <script src="../../js/reports-list.js" defer></script>
 
 </body>
 </html>

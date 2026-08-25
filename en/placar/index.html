@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Placar de Previsões — SENTINEL ENERGY</title>
-  <meta name="description" content="Histórico contínuo e auditável de acurácia das previsões quantitativas do modelo SENTINEL.">
+  <title>Prediction Scorecard — SENTINEL ENERGY</title>
+  <meta name="description" content="Continuous and auditable history of accuracy of the SENTINEL model's quantitative predictions.">
 
   <!-- hreflang -->
   <link rel="alternate" hreflang="pt-br" href="https://bsnoronha.github.io/sentinel-energy-site/placar/index.html">
   <link rel="alternate" hreflang="en" href="https://bsnoronha.github.io/sentinel-energy-site/en/placar/index.html">
-  
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-  
+
   <!-- Stylesheet -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
 
@@ -28,54 +28,54 @@
     </div>
     <nav>
       <ul class="nav-links">
-        <li><a href="../index.html">Início</a></li>
+        <li><a href="../index.html">Home</a></li>
         <li><a href="../flash/index.html">Flash</a></li>
-        <li><a href="../diario/index.html">Diário</a></li>
-        <li><a href="index.html" class="active">Placar</a></li>
+        <li><a href="../diario/index.html">Daily</a></li>
+        <li><a href="../../placar/index.html" style="font-size: 0.8rem; color: var(--text-dim);">PT-BR</a></li>
       </ul>
     </nav>
   </header>
 
   <main class="container">
-    
+
     <!-- Breadcrumb -->
     <div class="breadcrumb">
-      <a href="../index.html">Início</a> &rsaquo; <span>Placar de Previsões</span>
+      <a href="../index.html">Home</a> &rsaquo; <span>Prediction Scorecard</span>
     </div>
 
     <!-- Category Header -->
     <section style="margin-bottom: 1.5rem;">
       <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.5rem;">
-        <span class="card-tag tag-placar" style="font-size: 0.85rem;">Scorecard & Audit</span>
-        <span style="font-size: 0.85rem; color: var(--text-muted);">Transparência Metodológica</span>
+        <span class="card-tag tag-placar" style="font-size: 0.85rem;">Scorecard &amp; Audit</span>
+        <span style="font-size: 0.85rem; color: var(--text-muted);">Methodological Transparency</span>
       </div>
       <h1 style="font-size: 2.25rem; font-weight: 800; color: var(--text-main); margin-bottom: 0.75rem;">
-        📊 Placar de Previsões
+        📊 Prediction Scorecard
       </h1>
       <p style="font-size: 1.05rem; color: var(--text-muted); max-width: 750px;">
-        Histórico contínuo sobre a acurácia das métricas projetadas pelo SENTINEL ENERGY vs. dados realizados apurados a posteriori.
+        Continuous history of the accuracy of metrics projected by SENTINEL ENERGY versus realized data measured after the fact.
       </p>
     </section>
 
-    <!-- Visible Disclaimer Block (Mandatory Requirement) -->
+    <!-- Visible Disclaimer Block (Mandatory Requirement) — EN manual translation of CVM disclaimer -->
     <div class="disclaimer-box">
       <div class="disclaimer-header">
-        <span>⚠️</span> AVISO DE TRANSPARÊNCIA METODOLÓGICA & LEGAL
+        <span>⚠️</span> METHODOLOGICAL TRANSPARENCY &amp; LEGAL DISCLAIMER
       </div>
       <div class="disclaimer-text">
-        O histórico de previsões e os indicadores aqui publicados são mantidos de forma auditável e pública exclusivamente para fins de exibição de portfólio técnico, validação acadêmica e transparência metodológica do pipeline analítico. <strong>Estes relatórios e métricas NÃO constituem recomendação de investimento, aconselhamento financeiro, nem análise de valores mobiliários nos termos da regulamentação vigente.</strong>
+        The prediction history and indicators published here are maintained in an auditable and public manner exclusively for the purpose of technical portfolio display, academic validation and methodological transparency of the analytical pipeline. <strong>These reports and metrics DO NOT constitute investment advice, financial counseling, or securities analysis under the applicable regulations.</strong>
       </div>
     </div>
 
-    <!-- Reports List (manifest-driven; empty-state abaixo é fallback sem JS) -->
+    <!-- Reports List (manifest-driven; empty-state below is fallback without JS) -->
     <section id="reports-list" data-product="placar" class="empty-state-section">
       <div class="empty-state-icon">📊</div>
-      <h3 class="empty-state-title">Nenhum relatório publicado ainda</h3>
+      <h3 class="empty-state-title">No reports published yet</h3>
       <p class="empty-state-text">
-        Nenhum Placar foi consolidado nesta seção até o momento. As edições e históricos de acurácia estarão visíveis assim que disponibilizados pelo pipeline.
+        No Scorecard has been consolidated in this section so far. Editions and accuracy history will be visible here as soon as they are made available by the pipeline.
       </p>
       <div class="empty-state-hint">
-        Categoria: /placar/ • publish_flow.py (dados anexados via placar_anterior, produto: daily)
+        Category: /en/placar/ &bull; publish_flow.py (data attached via placar_anterior, product: daily, locale: en)
       </div>
     </section>
 
@@ -85,12 +85,12 @@
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-copy">
-        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio & Intelligence Engine
+        &copy; 2026 <span>SENTINEL ENERGY</span> — Public Portfolio &amp; Intelligence Engine
       </div>
     </div>
   </footer>
 
-  <script src="../js/reports-list.js" defer></script>
+  <script src="../../js/reports-list.js" defer></script>
 
 </body>
 </html>
